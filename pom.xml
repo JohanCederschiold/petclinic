@@ -14,7 +14,7 @@
     </parent>
     <groupId>se.jpdc</groupId>
     <artifactId>pets</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pets</name>
     <description>Demo project for Spring Boot</description>
 
@@ -42,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/JohanCederschiold/petclinic</developerConnection>
-      <tag>pets-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
