@@ -1,4 +1,4 @@
-package se.jpdc.pets.model;
+package model;
 
 public class PetType {
 
