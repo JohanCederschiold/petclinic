@@ -1,11 +1,13 @@
 package se.jpdc.pets.service.map;
 
+import org.springframework.stereotype.Service;
 import se.jpdc.pets.model.Owner;
 import se.jpdc.pets.service.OwnerService;
 
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
