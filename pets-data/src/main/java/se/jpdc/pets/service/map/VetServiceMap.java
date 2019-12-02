@@ -1,11 +1,11 @@
 package se.jpdc.pets.service.map;
 
 import se.jpdc.pets.model.Vet;
-import se.jpdc.pets.service.CrudService;
+import se.jpdc.pets.service.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
